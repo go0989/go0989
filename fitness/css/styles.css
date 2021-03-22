@@ -220,12 +220,12 @@ form #submit {
 footer p {
     font-size: 0.75em;
     text-align: center;
-    color: linear-gradient(180deg, #fff 20%, #fcfcfc 80%, #eeeeff 95%)
+    color: #fcfcfc 
     padding 0 1em;
 }
 
 footer p a {
-    color:linear-gradient(180deg, #fff 20%, #fcfcfc 80%, #eeeeff 95%)
+    color:#fcfcfc 
     text-decoration none;
 }
 
