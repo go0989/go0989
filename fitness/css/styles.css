@@ -1,37 +1,32 @@
 /*
-Author: Annora Johnson
+Author: Aniyah da Silva Santos 
 Date: 3/16/21
 File name: styles.css
 */
-
-/* CSS reset */
+/* CSS Reset */
 body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
     margin: 0;
     padding: 0;
     border: 0;
 }
-
-
-/* Style rules for body and images */
+/* Style Rules for Body and Images */
 body {
-
     background-color: #000;
 }
-
 img {
     max-width: 100%;
     display: block;
 }
 
-/* style rule that applies to all elements */
+/* Style that Applies to All Elements */
 * {
     box-sizing: border-box;
 }
 
-/* Style rules for mobile viewport */
+/* Style Rules for Mobile Viewport */
 
 
-/* Style rule for header */
+/* Style Rule for Header */
 header {
     top: 0;
     background-color: #000;
@@ -41,15 +36,15 @@ header {
 header img {
     margin: 0 auto;
 }
-/* Style rule for nav area */
+/* Style Rule for Navigation Area */
 nav {
     padding: 1%;
     margin-bottom: 1%;
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
+list-style-type: none;
+text-align: center;
 }
 
 nav li {
@@ -70,7 +65,7 @@ nav li a {
     text-decoration: none;
 }
 
-/* Show the mobile class, hide the desktop class */
+/* Show Mobile Class, Hide Tablet Desktop Class */
 
 .mobile {
     display: block;
@@ -80,7 +75,7 @@ nav li a {
     display: none;
 }
 
-/* Style rules for main content */
+/* Style Rules for Main Content */
 main {
     background-color: #fff;
     padding: 2%;
@@ -194,7 +189,7 @@ article:nth-of-type(2) {
     text-align: center;
 }
 
-/* style rules for form elements */
+/* Style Rules for Form Elements */
 fieldset, input, select, textarea {
     margin-bottom: 2%;
 }
@@ -222,19 +217,19 @@ form #submit {
 footer p {
     font-size: 0.75em;
     text-align: center;
-    color: #fff;
+    color: linear-gradient(180deg, #fff 20%, #fcfcfc 80%, #eeeeff 95%)
     padding: 0 1em;
 }
 
 footer p a {
-    color: #fff;
+    color:linear-gradient(180deg, #fff 20%, #fcfcfc 80%, #eeeeff 95%)
     text-decoration: none;
 }
 
 
-/* Media query for tablet viewport */
-@media screen and (min-width: 630px), print {
-    /* Tablet viewport: show tablet desktop class, hide mobile class */
+/* Media Query for Tablet Viewport */
+media screen and (min-width: 630px), print {
+/* Tablet Viewport: Show Tablet-Desktop Class, Hide Mobile Class */
     .tablet-desktop {
         display: block;
     }
@@ -243,15 +238,15 @@ footer p a {
     }
 
 
-    /* Tablet Viewport: Style rule for header */
+ /* Tablet Viewport: Style Rule for Header */
     header {
         padding-bottom: 2%;
  }
- /* Tablet Viewport: Style rule for nav area */
+ /* Tablet Viewport: Style Rule for Navigation Area */
     nav li {
         border-top: none;
         display: inline-block;
-        border-right: 3px solid #fff;
+        border-right: 1px solid #fff;
     }
 
     nav li:last-child {
@@ -261,7 +256,7 @@ footer p a {
         padding: 0.1em 0.75em;
     }
 
-    /* Tablet Viewport: Style rules for the main content area */
+/* Tablet Viewport: Style Rules for Main Content Area */
     main ul {
         margin: 0 0 4% 10%;
     }
@@ -293,7 +288,7 @@ footer p a {
         grid-column: 1 / span 3;
     }
 
-    #excercises {
+    #execrcises {
         border-top: 1px solid #000;
         border-bottom: 1px solid #000;
         background-color: #f2f2f2;
@@ -301,7 +296,7 @@ footer p a {
         padding: 1% 2%;
     }
 
-    #excercises dt {
+    #exercises dt {
         font-weight: bold;
     }
 
@@ -318,9 +313,9 @@ footer p a {
         height: 450px;
     }
 
-    /* Tablet Viewport: Style rules for table */
+    /* Tablet Viewport: Style Rules for Table */
     table {
-        border: 1px solid #000;
+        border: 1px solid #101010;
         border-collapse: collapse;
         margin: 0 auto;
         width: 100%;
@@ -333,30 +328,30 @@ footer p a {
     }
 
     th, td {
-        border: 1px solid #000;
+        border: 1px solid #101010;
         padding: 2%;
     }
 
     tr:nth-child(odd) {
-        background-color: #ccc;
+        background-color: #A0A0A0;
     }
 
-/* tablet viewport: Style rules for form elements */
+/* Tablet viewport: Style Rules for Form Elements */
 form {
     width: 70%;
     margin: 0 auto;
     }
 }
 
-/* Media query for desktop viewport */
+/* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
-    /* Desktop viewport: style rules for header */
+ /* Desktop Viewport: Style Rules for Header */
     header {
         width: 25%;
         float: left;
         padding-bottom: 0;
     }
-    /* Desktop viewport: style rules for nav area */
+    /* Desktop Viewport: Style Rules for Navigation Areas */
     nav {
         float: right;
         width: 70%;
@@ -379,7 +374,7 @@ form {
         background-color: #fff;
     }
 
-    /* Desktop viewport: style rules for main content */
+/* Desktop Viewport: Style Rules for Main Content */
     main {
         clear: left;
     }
@@ -408,9 +403,9 @@ form {
     #weights, #cardio, #training{
         width: 29%;
         float: left;
-        margin: 0 2%;
+        margin: 0  2%;
     }
-    #excercises {
+    #excrcises {
         clear: left;
     }
 
@@ -429,23 +424,20 @@ form {
     }
 }
 
-/* Media query for large desktop viewports */
-@media screen and (min-width: 1921px) {
+/* Media Query for Large Desktop Viewports */
+media screen and (min-width: 1921px) {
     #container {
         width: 1920px;
         margin: 0 auto;
     }
 
     table {
-        width: 80%;
+        width: 82%;
     }
-
 }
-
 @media print {
-
     body {
         background-color: #fff;
-        color: #000;
+        color: #101010;
     }
 }
