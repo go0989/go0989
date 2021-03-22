@@ -315,7 +315,7 @@ footer p a {
         height: 450px;
     }
 
-    /* Tablet Viewport: Style Rules for Table */
+    /* Tablet Viewport: Style Rules for table */
     table {
         border: 1px solid #101010;
         border-collapse: collapse;
@@ -433,7 +433,7 @@ form {
         margin: 0 auto;
     }
     table {
-        width: 82%;
+        width: 80%;
         }
     }
 
