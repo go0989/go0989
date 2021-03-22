@@ -221,17 +221,17 @@ footer p {
     font-size: 0.75em;
     text-align: center;
     color: linear-gradient(180deg, #fff 20%, #fcfcfc 80%, #eeeeff 95%)
-    padding: 0 1em;
+    padding 0 1em;
 }
 
 footer p a {
     color:linear-gradient(180deg, #fff 20%, #fcfcfc 80%, #eeeeff 95%)
-    text-decoration: none;
+    text-decoration none;
 }
 
 
 /* Media Query for Tablet Viewport */
-media screen and (min-width: 630px), print {
+@media screen and (min-width: 630px), print {
 /* Tablet Viewport: Show Tablet-Desktop Class, Hide Mobile Class */
     .tablet-desktop {
         display: block;
@@ -428,16 +428,16 @@ form {
 }
 
 /* Media Query for Large Desktop Viewports */
-media screen and (min-width: 1921px) {
+media screen and min-width (1921px) {
     #container {
         width: 1920px;
-        margin: 0 auto;
-    }
+        margin auto
+    
 
     table {
         width: 82%;
     }
-}
+
 @media print {
     body {
         background-color: #fff;
